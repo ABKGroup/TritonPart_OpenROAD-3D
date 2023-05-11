@@ -148,6 +148,13 @@ getMacroPlacer2()
   return openroad->getMacroPlacer2();
 }
 
+mlsa::BlobPlacer *
+getBlobPlacer()
+{
+  OpenRoad *openroad = getOpenRoad();
+  return openroad->getBlobPlacer();
+}
+
 gpl::Replace*
 getReplace()
 {
